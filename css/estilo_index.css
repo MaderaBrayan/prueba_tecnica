@@ -60,12 +60,12 @@
     .quines_somos{
       display: flex;
       justify-content: flex-end;
-      padding: 5% 2% 2% 2%;;
+      padding: 5% 0 2% 2%;;
       text-align: center;
       background-color: #3ead4365;
     }
     .somos{
-      width: 150%;
+      width: 200%;
     }
     footer{
       background: rgba(97, 97, 102, 0.63);
@@ -83,12 +83,11 @@
     justify-content: center;
     align-items: center;
     }
-    .contac{
-    padding: 10px;
-    }
-    .contac a{
+
+    .nom{
     color: #039;
     }
     .redes{
       justify-content: flex-end;
+      padding: 0 7% 2% 7%;
     }
