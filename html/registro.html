@@ -24,13 +24,15 @@
         <section class="form-login">
     
             <h5>REGISTRARSE</h5>
-            <form class="" >
+            
+            <form id="formu" action="../scrip/registro.js"  method="post">
             <input class="controls" type="text" name="nombre" value="" required placeholder="Escriba su nombre">
-            <input class="controls" type="email" name="usuario" value="" required placeholder="Escriba su correo">
-            <input class="controls" type="number" name="usuario" value="" required placeholder="Numero de Identificacion">
+            <input class="controls" type="email" name="correo" value="" required placeholder="Escriba su correo">
+            <input class="controls" type="number" name="documento" value="" required placeholder="Numero de Identificacion">
             <input class="controls" type="password" name="contrasena" value="" required placeholder="Contraseña">
             <input class="buttons" type="submit" name="" value="Resgistrarse">
             </form>
+            <script src="../scrip/registro.js"></script>
             <p>¿Ya tiene cuenta? <a href="login.html"> Iniciar Sesion</a> </p>
             <center><img src="img/logo.png" width="70%" ></center>
           </section>
