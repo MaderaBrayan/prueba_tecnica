@@ -1,0 +1,94 @@
+* {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0;
+    
+  }   
+
+  .encabezado {
+      width: 85%;
+      margin: auto;
+      overflow:hidden;
+    }
+    header {
+      background: rgba(49, 48, 48, 0.9);
+      width: 100%;
+      position: fixed;
+      z-index: 10;
+      
+    }
+  
+    nav ul {
+      list-style: none;
+      overflow: hidden;
+    }
+    nav ul li {
+      float: left;
+      font-family: Arial, sans-serif;
+      
+    }
+    nav ul li a {
+      display: block; 
+      padding: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav ul li:hover {
+      background: #3ead43;
+    }
+    
+    .otro{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .iniciopag{
+      display: flex;
+      justify-content: flex-end;
+      padding: 10% 10% 2% 10%;
+      text-align: center;
+      background-color: #3ead4365;
+    }
+    #imgini{
+      width: 30%;
+    }
+    .articulos{
+      display: flex;
+    }
+    .articulo{
+      padding: 5% 5% 2% 5%;
+    }
+    .quines_somos{
+      display: flex;
+      justify-content: flex-end;
+      padding: 5% 2% 2% 2%;;
+      text-align: center;
+      background-color: #3ead4365;
+    }
+    .somos{
+      width: 150%;
+    }
+    footer{
+      background: rgba(97, 97, 102, 0.63);
+      padding: 20px;
+      color: black;
+      font-size: 15px;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    .imgf{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .contac{
+    padding: 10px;
+    }
+    .contac a{
+    color: #039;
+    }
+    .redes{
+      justify-content: flex-end;
+    }
